@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'limelight';
+    src: url('../webfonts/Limelight-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'league';
+    src: url('../webfonts/League/LeagueGothic-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'neon';
+    src: url('../webfonts/neon/neon2.ttf') format('truetype');
+}
+
+/*Police*/
+
+.elephant
+{
+    font-family: "elephant", 'limelight', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/*automatisation des fonts/police */
+
+.text-nav
+{
+    color: rgb(62, 84, 96);
+}
+    .text-nav:hover
+    {
+        color: #970C10;
+    }
+.text-nav2
+{
+    color: rgb(62, 84, 96);
+}
+    .text-nav2:hover
+    {
+        color: #970C10;
+    }
+small
+{
+    font-size: 1.563em;
+}
+.describpro
+{
+    font-size: 1.250em;
+}
+h1
+{
+    font-size: 7.500em;
+    font-family: "elephant", 'limelight', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(62, 84, 96);
+}
+
+h2
+{
+    font-size: 3.2em;
+    font-family: 'limelight', Arial, Helvetica, sans-serif;
+    color: rgb(62, 84, 96);
+}
+
+    .h2mt
+    {
+        font-size: 2.2em;
+        margin-top: 20px;
+        color: rgb(62, 84, 96);
+    }
+
+h3
+{
+    font-size: 3em;
+    font-family: 'limelight', Arial, Helvetica, sans-serif; 
+} 
+
+h5
+{
+    font-family: 'limelight', Arial, Helvetica, sans-serif; 
+}
+
+a
+{
+    color: #FFD780;
+}
+    a:hover
+    {
+        color: #970C10;
+    }
+
+.btn
+{
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+    .btn-grey
+    {
+        color: white;
+        background-color: rgb(62, 84, 96);
+    }
+        .btn-grey:hover
+        {
+            color: white;
+            background-color: rgba(62, 84, 96, 0.842);
+        }
+
+/*Background image*//*Optimiser cette partie = 1 seul parallax et ensuite des background*/
+
+.parallax
+{
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+}
+.para1
+{
+    background-image: url('../img/projet/readyhc.jpg');
+}
+
+.para2
+{
+    background-image: url('../img/projet/readyboot.jpg');
+}
+.para3
+{
+    background-image: url('../img/projet/readyvue.jpg');
+}
+
+.para4
+{
+    background-image: url('../img/projet/readyword.jpg');
+}
+
+.para5
+{
+    background-image: url('../img/projet/figur.jpg');
+}
+
+.para6
+{
+    background-image: url('../img/projet/blog.jpg');
+}
+.para7
+{
+    background-image: url('../img/projet/modelisme.jpg');
+}
+
+/*Modal*/
+
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .myImg:hover 
+    {
+        opacity: 0.7;
+    }
+
+.modal-body img
+{
+    max-width: 465px;
+}
+
+/*Background color section AND After Java*/
+
+.bg-about
+{
+    background-color: #3e5460;
+}
+    .bg-about2
+    {
+        background-color: rgb(255, 215, 128);
+    }
+
+.bg-projet
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-skills
+{
+    background-color: rgb(62, 84, 96);
+}
+    .bg-skills2
+    {
+        background-color: #970C10;
+    }
+
+.bg-cv
+{
+    background-color: rgb(62, 84, 96);
+}
+    .bg-cv2
+    {
+        background-color: rgb(62, 84, 96);
+    }
+
+.bg-contact
+{
+    background-color: rgb(255, 255, 255);
+}
+.bg-footer
+{
+    background-color: rgb(62, 84, 96);
+}
+
+/*Coupure container AND after Java*/
+
+.gradient {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 90px 99vw 0 0;
+    border-color: rgb(62, 84, 96) rgb(255, 255, 255) transparent transparent;
+    transform: scale(1.0001);
+  }
+  .gradientA {
+        border-color: #970C10 rgb(255, 255, 255) transparent transparent;
+  }
+.gradient2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 90px 0 0 99vw; 
+    border-color: rgb(255, 255, 255) transparent transparent rgb(62, 84, 96); /* HAUT - Droite - bas - Gauche*/
+    transform: scale(1.0001);
+}
+
+/*Javascript rotation et couleur*/
+
+.rotationG5
+{
+    transform: rotate(5deg); 
+    color: #d3c6a5;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;
+}
+.rotationG355
+{
+    transform: rotate(355deg); 
+    color: #d3c6a5;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;
+}
+.rotationR5
+{
+    transform: rotate(5deg);
+    color: #970C10;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;  
+}
+.rotationR355
+{
+    transform: rotate(355deg);
+    color: #970C10;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;  
+}
+
+.rotationY5
+{
+    transform: rotate(5deg); 
+    color: #FFD780;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;  
+}
+
+.rotationY355
+{
+    transform: rotate(355deg); 
+    color: #FFD780;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;  
+}
+
+.rotationB5
+{
+    transform: rotate(5deg);
+    color: #3E5460;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;  
+}
+.rotationB355
+{
+    transform: rotate(355deg);
+    color: #3E5460;
+    font-family: "neon", 'limelight', Arial, Helvetica, sans-serif;  
+}
+
+.rotationB0
+{
+    transform: rotate(0deg);
+    color: rgb(62, 84, 96);;
+}
+
+/*Javascript apparition*/
+
+.from-right, .from-left, h2, h3, .btn:not(.send), .card-title {
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+.from-right, .btn:not(.send) {
+    transform: translate(50px,-30px);
+}
+.from-left, h2, h3, .card-title {
+    transform: translate(-50px);
+}
+/*Javascript Swap Color*/
+
+.red
+{
+    color: #970C10;
+}
+.mimosa
+{
+    color: #FFD780;
+}
+/*Header*/
+
+.sectOne
+{
+    height: 950px;
+}
+
+.marginforjava
+{
+    height: 200px;
+}
+
+.rotate7
+{
+    margin-right: 0.2em;
+}
+/*A propos*/
+  
+.sectTwo {
+    padding: 150px 0;
+}
+
+.Me {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    background: transparent;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: rgb(0, 0, 0);
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .1s ease;
+  }
+  .Me:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+
+/* Mes Projets */
+.sectThree {
+    padding: 30px 0;
+  }
+
+/* Skills */
+.fake
+{
+    border: 2px solid black;
+}
+.btn:not(.btnnot)
+{
+    margin: 20px;
+}
+
+.btn2
+{
+    margin-bottom: 70px;
+}
+
+.btn-dark
+{
+    border-radius: 5em;
+}
+.btn-light
+{
+    border-radius: 5em;
+}
+
+/* CV */
+.sectFor {
+    padding: 30px 0;
+  }
+
+/*Contact*/
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  hr
+  {
+      opacity: 0;
+  }
+
+@media all and (max-width: 993px) {
+    .fa-bars
+    {
+        color: #3E5460;
+    }
+
+}
+    @media (min-width: 768px) and (max-width: 1003px) {  
+        h1
+        {
+            font-size: 5.625em;
+        }
+
+    }
+        @media screen and (max-width: 767.99px) {
+            h1
+            {
+                font-size: 3.438em;
+            }    
+   
+            .modal-content 
+            {
+                width: 100%;
+            }
+                .modal-body img
+                {
+                    width: 100%;
+                }
+        }
+             @media all and (max-width: 480px) {
+                h1
+                {
+                    font-size: 2.375em;
+                }
+    
+            }
+                @media all and (max-width: 340px) {
+                    h1
+                    {
+                        font-size: 2.125em;
+                    }
+    
+                }
+
