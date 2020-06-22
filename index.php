@@ -336,8 +336,8 @@
           </div>
           <div class="modal-footer">
             <p>Pour les besoin du screen le parallax à été désactiver.<p>
-            <a href="#" target="_blank">
-              <button type="button" class="btn btn-dark">inspecter...</button>
+            <a href="https://github.com/Nooxunath/Portfolio" target="_blank">
+              <button type="button" class="btn btn-dark">Github</button>
             </a>
           </div>
         </div>
